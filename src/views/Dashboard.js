@@ -250,7 +250,7 @@ function Dashboard(props) {
           <div className="flex flex-col">
             <div className="overflow-x-auto">
               <div className="p-1.5 w-full inline-block align-middle">
-                <div className="overflow-hidden border rounded-lg">
+                <div className="table-responsive border rounded-lg">
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-black">
                       <tr>
@@ -258,19 +258,19 @@ function Dashboard(props) {
                           scope="col"
                           className="px-6 py-3 text-xs font-bold text-left text-white uppercase font-family"
                         >
-                          Project
+                          Medols
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-xs font-bold text-left text-white uppercase font-family"
+                        >
+                          Wallet Adress
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-xs font-bold text-left text-white uppercase font-family"
                         >
                           Rank
-                        </th>
-                        <th
-                          scope="col"
-                          className="px-6 py-3 text-xs font-bold text-left text-white uppercase font-family"
-                        >
-                          Total NFT
                         </th>
                         {/* <th
                                         scope="col"
@@ -282,25 +282,25 @@ function Dashboard(props) {
                           scope="col"
                           className="px-6 py-3 text-xs font-bold text-right text-white uppercase font-family"
                         >
-                          Bonus %
+                          $Shadow Staked
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-xs font-bold text-right text-white uppercase font-family"
                         >
-                          Total %
+                          $Shadow Burned
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-xs font-bold text-right text-white uppercase font-family"
                         >
-                          $Glory <br /> staked
+                          Total Points
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-xs font-bold text-right text-white uppercase font-family"
                         >
-                          $Glory burned <br /> (GLORY*2)
+                          Total Bounus
                         </th>
                       </tr>
                     </thead>
