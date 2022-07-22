@@ -51,7 +51,7 @@ function Dashboard(props) {
               </p>
             </Col>
             <Col className="col-1">
-              <Image src={line} className="h-[100%] ml-10 w-[2px]" />
+              <Image src={line} className="h-[100%] ml-7 w-[2px]" />
             </Col>
             <Col className="col-1 m-1 text-center">
               <Col className="">
@@ -145,11 +145,11 @@ function Dashboard(props) {
           </Col>
         </Row>
       </Container>
-      <Container className="mb-5">
+      <Container className="mb-5" >
         <Row>
           <Col className="d-flex flex-column col-6">
             <h1 className="text-white">Past History</h1>
-            <Col className="bg-[#212121] text-center  border-2 rounded-xl border-black p-4 h-full">
+            <Col className="bg-[#212121] text-center  border-2 rounded-xl border-black p-4 h-full" style={{overflow:'hidden'}}>
               <Table striped bordered hover variant="dark">
                 <thead>
                   <tr>
@@ -185,7 +185,7 @@ function Dashboard(props) {
               </Table>
             </Col>
           </Col>
-          <Col className="d-flex flex-column col-6">
+          <Col className="d-flex flex-column col-6" style={{overflow:'hidden'}}>
             <h1 className="text-white">Clam Lootbox</h1>
             <Col className="bg-[#212121] text-center  border-2 rounded-xl border-black p-4 h-full">
               <p className="mt-4 text-left underline font-family">
